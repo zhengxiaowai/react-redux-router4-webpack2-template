@@ -1,0 +1,59 @@
+{
+  "name": "react-redux-router4-webpack2-template",
+  "version": "1.0.0",
+  "description": "react-redux-router4-webpack2-template",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline --hot",
+    "build": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhengxiaowai/react-redux-router4-webpack2-template.git"
+  },
+  "keywords": [
+    "react",
+    "react-redux",
+    "react-router4",
+    "webpack2",
+    "templete",
+    "es6",
+    "es7"
+  ],
+  "author": "zhengxiaowai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhengxiaowai/react-redux-router4-webpack2-template/issues"
+  },
+  "homepage": "https://github.com/zhengxiaowai/react-redux-router4-webpack2-template#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-plugin-transform-async-to-generator": "^6.22.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-1": "^6.22.0",
+    "css-loader": "^0.27.3",
+    "file-loader": "^0.10.1",
+    "html-webpack-plugin": "^2.28.0",
+    "less": "^2.7.2",
+    "less-loader": "^3.0.0",
+    "react-tap-event-plugin": "^2.0.1",
+    "redux-devtools-extension": "^2.13.0",
+    "redux-logger": "^2.8.2",
+    "style-loader": "^0.14.1",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.3",
+    "react-router": "^4.0.0",
+    "react-router-redux": "^4.0.8",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0"
+  }
+}
